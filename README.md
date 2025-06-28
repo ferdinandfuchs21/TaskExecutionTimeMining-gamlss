@@ -35,7 +35,7 @@ Navigate to the models/ folder and run the relevant R files to retrain models.
 
 Subfolders are organized by:
 
-Dataset (AR/, PCR/, BPIC2017/)
+Dataset (AR, PCR, BPIC2017)
 
 Distribution family (gamma, lognorm, etc.)
 
@@ -47,12 +47,9 @@ For each parameter combination, a training and test dataset will be created auto
 
 ### 3 Evaluate results
 To evaluate the trained models, run the corresponding evaluation Jupyter notebooks, located in:
-
-src/notebooks/AR
-
-src/notebooks/PCR
-
-src/notebooks/BPIC2017
+- src/notebooks/AR
+- src/notebooks/PCR
+- src/notebooks/BPIC2017
 
 Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
 For example:
