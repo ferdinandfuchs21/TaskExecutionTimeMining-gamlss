@@ -50,6 +50,5 @@ To evaluate the trained models, run the corresponding evaluation Jupyter noteboo
 - src/notebooks/BPIC2017
 
 Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
-For example:
 
-AR_evaluation_gamma.ipynb will evaluate all files in data/predictions_gamma/
+For example: AR_evaluation_gamma.ipynb will evaluate all files in data/predictions_gamma/
