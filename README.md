@@ -34,10 +34,8 @@ All GAMLSS models are trained using R scripts.
 Navigate to the models/ folder and run the relevant R files to retrain models.
 
 Subfolders are organized by:
-
-Dataset (AR, PCR, BPIC2017)
-
-Distribution family (gamma, lognorm, etc.)
+- Dataset (AR, PCR, BPIC2017)
+- Distribution family (gamma, lognorm, etc.)
 
 Inside each subfolder, you’ll find several scripts — each trains a different parameter combination.
 
