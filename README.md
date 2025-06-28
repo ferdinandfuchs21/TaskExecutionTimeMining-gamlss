@@ -11,11 +11,10 @@ To test GAMLSS-based BPS modeling, follow these steps:
 
 
 ### 1 Clone the repository, download data, install dependencies
-
-git clone https://github.com/your-user/TaskExecutionTimeMining-gamlss.git
-cd TaskExecutionTimeMining-gamlss
-pipenv install
-pipenv shell
+- git clone https://github.com/your-user/TaskExecutionTimeMining-gamlss.git
+- cd TaskExecutionTimeMining-gamlss
+- pipenv install
+- pipenv shell
 
 Note: The data/ folder is not versioned due to its size. You’ll need to train the required logs as described below.
 
@@ -28,7 +27,7 @@ Run the script src/notebooks/run_all_train_dumas.sh to train models using the Py
 
 This will generate the corresponding .pickle model files used for later evaluation.
 
-Training GAMLSS framework
+Training GAMLSS framework:
 All GAMLSS models are trained using R scripts.
 
 Navigate to the models/ folder and run the relevant R files to retrain models.
