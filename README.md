@@ -11,7 +11,7 @@ To test GAMLSS-based BPS modeling, follow these steps:
 
 
 ### 1 Clone the repository, download data, install dependencies
-- git clone https://github.com/your-user/TaskExecutionTimeMining-gamlss.git
+- git clone https://github.com/your-user/TaskExecutionTimeMining-gamlss.git](https://github.com/ferdinandfuchs21/TaskExecutionTimeMining-gamlss.git
 - cd TaskExecutionTimeMining-gamlss
 - pipenv install
 - pipenv shell
