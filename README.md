@@ -43,11 +43,11 @@ Output files (e.g. predictions and model fits) will be saved in the data/ folder
 For each parameter combination, a training and test dataset will be created automatically.
 
 ### 3 Evaluate results
-To evaluate the trained models, run the corresponding evaluation Jupyter notebooks, located in:
+The finsihed evaluations are within the following folders: 
 - src/notebooks/AR
 - src/notebooks/PCR
 - src/notebooks/BPIC2017
+To re-evaluate the trained models, run the corresponding evaluation Jupyter notebooks:
 
-Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
-
+Note: Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
 For example: AR_evaluation_gamma.ipynb will evaluate all files in data/predictions_gamma/
