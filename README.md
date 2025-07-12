@@ -1,6 +1,6 @@
 ## TaskExecutionTimeMining-gamlss
 
-This repository demonstrates the use of GAMLSS (Generalized Additive Models for Location, Scale and Shape) to model task execution times in business process simulations (BPS). The goal is to evaluate GAMLSS-based models against standard duration models using real and synthetic event logs.
+This repository demonstrates the use of GAMLSS (Generalized Additive Models for Location, Scale and Shape) to train models on given datasets for the prediction of business process event durations. The goal is to evaluate GAMLSS-based models against standard duration models using real and synthetic event logs.
 
 The project builds on the idea of DR-BART but replaces its core with GAMLSS, implemented in R and integrated via Python for training, simulation, and evaluation.
 
