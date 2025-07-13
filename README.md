@@ -16,7 +16,7 @@ To test GAMLSS-based BPS modeling, follow these steps:
 - pipenv install
 - pipenv shell
 
-Note: The data/ folder is not versioned due to its size. You’ll need to train the required logs as described below.
+Note: The data/ folder is not versioned due to its size. If you want to retrain & reevaluate the results, you’ll need to run the required R files as described below.
 
 
 ### 2 Train GAMLSS models
@@ -47,7 +47,7 @@ The finsihed evaluations are within the following folders:
 - src/notebooks/AR
 - src/notebooks/PCR
 - src/notebooks/BPIC2017
-To re-evaluate the trained models, run the corresponding evaluation Jupyter notebooks - feel free to adjust the number of samples N:
+To re-evaluate the trained models, run the corresponding evaluation Jupyter notebooks:
 
 Note: Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
 For example: AR_evaluation_gamma.ipynb will evaluate all files in data/predictions_gamma/
