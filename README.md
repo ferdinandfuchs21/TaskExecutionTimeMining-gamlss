@@ -47,7 +47,7 @@ The finsihed evaluations are within the following folders:
 - src/notebooks/AR
 - src/notebooks/PCR
 - src/notebooks/BPIC2017
-To re-evaluate the trained models, run the corresponding evaluation Jupyter notebooks:
+To re-evaluate the trained models, run the corresponding evaluation Jupyter notebooks - feel free to adjust the number of samples N:
 
 Note: Each evaluation notebook attempts to load all available parameter combinations from the relevant data/predictions_* folder.
 For example: AR_evaluation_gamma.ipynb will evaluate all files in data/predictions_gamma/
